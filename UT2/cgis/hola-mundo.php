@@ -1,6 +1,8 @@
+#!/usr/bin/php
+
 <?php
   
-  print "Content-type: text/plain\n\n";
+  echo 'Content-type: text/plain\n\n';
 
-  print "Hola, Mundo soy un script de PHP.";
+  print 'Hola, Mundo soy un script de PHP.';
 ?>
