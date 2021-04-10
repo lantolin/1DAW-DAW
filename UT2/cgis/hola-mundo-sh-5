@@ -1,6 +1,9 @@
 #!/bin/bash
 
 NOMBRE=$(echo "$QUERY_STRING" | sed -n 's/^.*nombre=\([^&]*\).*$/\1/p')
+if [[ "${NOMBRE}" == "" ]]; then
+    NOMBRE="desconocido"
+fi
 
 echo -ne "Content-type: text/html\n\n";
 echo -ne "<!DOCTYPE html>\n"
