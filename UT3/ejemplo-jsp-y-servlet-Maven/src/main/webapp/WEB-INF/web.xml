@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UnServlet</servlet-name>
+  	<display-name>UnServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.luisantolin.daw.daw.servlets.UnServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UnServlet</servlet-name>
+  	<url-pattern>/UnServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
