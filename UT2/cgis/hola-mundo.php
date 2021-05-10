@@ -2,7 +2,7 @@
 <?php
  echo 'Content-type: text/plain
 
-Hola, Mundo soy un script de PHP.
+Hola, Mundo soy un script de PHP. Si está activado mod_php no funciono bien.
 ';  
 
 // importantes diferencias con la ejecucion con mod_php que veremos despues
