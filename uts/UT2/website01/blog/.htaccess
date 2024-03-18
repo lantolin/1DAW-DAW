@@ -1,0 +1,4 @@
+# Esto solo esta aqui para poder testear que no se pone un AllowOverride demasiado permisivo
+# En circunstancias normales esto no debe aplicar
+
+Require all denied
