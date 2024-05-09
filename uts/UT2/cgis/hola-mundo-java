@@ -1,4 +1,6 @@
 #!/bin/bash
 
-#export JAVA_HOME=/opt/jdk-11.0.9
+# Imaginate que como suele ocurrir con los programas PHP aqui podría irian las credeciales (user/pass) de la BBDD
+# usuario=root
+# password=secretisimoDeLaMuerte
 /usr/bin/java HolaMundo
