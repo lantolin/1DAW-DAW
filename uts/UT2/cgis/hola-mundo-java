@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Imaginate que como suele ocurrir con los programas PHP aqui podría irian las credeciales (user/pass) de la BBDD
+# Imaginate que como suele ocurrir con los programas PHP aqui irian las credenciales (user/pass) de la BBDD
 # usuario=root
 # password=secretisimoDeLaMuerte
+
 /usr/bin/java HolaMundo
