@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo -ne "Content-type: text/plain\n\n";
+echo -ne "Hola mundo. Soy un script en BASH\n"

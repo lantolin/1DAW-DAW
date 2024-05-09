@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo -ne "Content-type: text/html\n\n";
+echo -ne "<!DOCTYPE html>\n"
+echo -ne "<html lang='en'>\n"
+echo -ne "<head>\n"
+echo -ne "    <meta charset='UTF-8'>\n"
+echo -ne "    <meta name='viewport' content='width=device-width, initial-scale=1.0'>\n"
+echo -ne "    <title>Document</title>\n"
+echo -ne "</head>\n"
+echo -ne "<body>\n"
+echo -ne "  <h1>Hola mundo</h1>\n"
+echo -ne "</body>\n"
+echo -ne "</html>\n"
