@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo -ne "Content-type: text/html\n\n";
-
-echo "$@"
-echo "$@" | md5sum
