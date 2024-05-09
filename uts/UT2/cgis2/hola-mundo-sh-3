@@ -3,4 +3,4 @@
 echo -ne "Content-type: text/plain\n\n";
 echo -ne "Hola mundo.\n"
 echo -ne "Estas usando el servidor [${SERVER_SOFTWARE}] y tu IP es: [${REMOTE_ADDR}] \n"
-echo -ne "En el servidor son las [$(date)]\n"
+echo -ne "En tu casa no lo se, pero en el servidor son las [$(date)]\n"
