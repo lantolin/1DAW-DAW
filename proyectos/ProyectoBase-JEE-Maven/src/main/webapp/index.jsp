@@ -1,8 +1,12 @@
 <html>
 <body>
-<h2>Hello World!</h2>
-<p><%= java.util.Calendar.getInstance().getTime() %></p>  
-<p><% out.print( java.util.Calendar.getInstance().getTime() ); %></p>
-<p><a href="./UnServlet">Un Servlet</a></p>  
+	<h2>Hello World!</h2>
+	<form name="formulario" action="saludo" method="GET">
+		<label>Nombre:</label> 
+		<input type="text" name="nombre" /> 
+		<input type="submit" value="Submit" />
+	</form>
+	<p>${saludo}</p>
+	<p>Son las <%=java.util.Calendar.getInstance().getTime()%></p>
 </body>
 </html>

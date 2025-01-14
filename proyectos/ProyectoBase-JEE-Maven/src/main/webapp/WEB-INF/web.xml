@@ -3,12 +3,4 @@
     xmlns:xml="http://www.w3.org/XML/1998/namespace"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
       <display-name>Un modesto y pequeño Servlet y su amigo el JSP</display-name>
-  <servlet>
-  	<servlet-name>UnServlet</servlet-name>
-  	<servlet-class>com.luisantolin.daw.daw.servlets.UnServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>UnServlet</servlet-name>
-  	<url-pattern>/UnServlet</url-pattern>
-  </servlet-mapping>
 </web-app>
