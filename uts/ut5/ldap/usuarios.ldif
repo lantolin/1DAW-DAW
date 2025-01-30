@@ -1,0 +1,39 @@
+dn: uid=bob,ou=usuarios,dc=daw,dc=practicas,dc=net
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Bob
+uid: bob
+uidNumber: 2001
+gidNumber: 2001
+homeDirectory: /home/bob
+userPassword: changeme
+loginShell: /bin/bash
+
+dn: uid=stuart,ou=usuarios,dc=daw,dc=practicas,dc=net
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Stuart
+uid: stuart
+uidNumber: 2002
+gidNumber: 2002
+homeDirectory: /home/stuart
+userPassword: changeme
+loginShell: /bin/bash
+
+dn: uid=kevin,ou=usuarios,dc=daw,dc=practicas,dc=net
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Kevin
+uid: kevin
+uidNumber: 2003
+gidNumber: 2003
+homeDirectory: /home/kevin
+userPassword: changeme
+loginShell: /bin/bash
+

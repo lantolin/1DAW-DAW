@@ -1,0 +1,13 @@
+dn: cn=lantolin,ou=servidores,dc=daw,dc=practicas,dc=net
+objectClass: top
+objectClass: device
+objectClass: ipHost
+cn: lantolin
+ipHostNumber: 192.168.1.31
+
+dn: cn=lantolin-backup,ou=servidores,dc=daw,dc=practicas,dc=net
+objectClass: top
+objectClass: device
+objectClass: ipHost
+cn: lantolin-backup
+ipHostNumber: 192.168.1.32

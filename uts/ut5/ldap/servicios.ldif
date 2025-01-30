@@ -1,0 +1,14 @@
+dn: cn=http,ou=aplicaciones,dc=daw,dc=practicas,dc=net
+objectClass: top
+objectClass: ipService
+cn: http
+ipServicePort: 80
+ipServiceProtocol: HTTP
+
+dn: cn=https,ou=aplicaciones,dc=daw,dc=practicas,dc=net
+objectClass: top
+objectClass: ipService
+cn: apache2
+ipServicePort: 443
+ipServiceProtocol: HTTPS
+
