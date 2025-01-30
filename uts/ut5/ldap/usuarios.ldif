@@ -1,4 +1,4 @@
-dn: uid=bob,ou=usuarios,dc=daw,dc=practicas,dc=net
+dn: uid=bob,ou=usuarios,dc=daw,dc=1daw,dc=buinf,dc=internal
 objectClass: top
 objectClass: account
 objectClass: posixAccount
@@ -11,7 +11,7 @@ homeDirectory: /home/bob
 userPassword: changeme
 loginShell: /bin/bash
 
-dn: uid=stuart,ou=usuarios,dc=daw,dc=practicas,dc=net
+dn: uid=stuart,ou=usuarios,dc=daw,dc=1daw,dc=buinf,dc=internal
 objectClass: top
 objectClass: account
 objectClass: posixAccount
@@ -24,7 +24,7 @@ homeDirectory: /home/stuart
 userPassword: changeme
 loginShell: /bin/bash
 
-dn: uid=kevin,ou=usuarios,dc=daw,dc=practicas,dc=net
+dn: uid=kevin,ou=usuarios,dc=daw,dc=1daw,dc=buinf,dc=internal
 objectClass: top
 objectClass: account
 objectClass: posixAccount

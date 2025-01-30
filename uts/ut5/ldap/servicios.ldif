@@ -1,11 +1,11 @@
-dn: cn=http,ou=aplicaciones,dc=daw,dc=practicas,dc=net
+dn: cn=http,ou=aplicaciones,dc=daw,dc=1daw,dc=buinf,dc=internal
 objectClass: top
 objectClass: ipService
 cn: http
 ipServicePort: 80
 ipServiceProtocol: HTTP
 
-dn: cn=https,ou=aplicaciones,dc=daw,dc=practicas,dc=net
+dn: cn=https,ou=aplicaciones,dc=daw,dc=1daw,dc=buinf,dc=internal
 objectClass: top
 objectClass: ipService
 cn: apache2

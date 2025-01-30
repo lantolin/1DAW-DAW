@@ -1,11 +1,11 @@
-dn: ou=usuarios,dc=daw,dc=practicas,dc=net
+dn: ou=usuarios,dc=daw,dc=1daw,dc=buinf,dc=internal
 objectClass: organizationalUnit
 ou: usuarios
 
-dn: ou=aplicaciones,dc=daw,dc=practicas,dc=net
+dn: ou=aplicaciones,dc=daw,dc=1daw,dc=buinf,dc=internal
 objectClass: organizationalUnit
 ou: aplicaciones
 
-dn: ou=servidores,dc=daw,dc=practicas,dc=net
+dn: ou=servidores,dc=daw,dc=1daw,dc=buinf,dc=internal
 objectClass: organizationalUnit
 ou: servidores
