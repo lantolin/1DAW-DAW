@@ -1,3 +1,5 @@
+Directorio de demo de CGIs para el material WEBSERV.08 Contenido Dinámico
+
 Este directorio de CGIs para funcionar requiere:
 
 - Que esté activado mod_cgi (o alguna variante compatible)
